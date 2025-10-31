@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/*
+===========================================================================
+Função adicionar_pessoa: Essa função serve para percorrer o vetor do canteiro de flores
+e verificar se será possivel plantar uma nova flor ali ou não
+Função Main: O switch-case lê a opção digitada pelo usuário e executa, quando o usuário
+digita a opção 5(Sair), o free do buffer é ativado.
+===========================================================================
+*/
+
 bool canPlaceFlowers(int *canteiroFlores, int tamanhoCanteiroFlores, int n) {
     int lugaresLivres = 0;
 
@@ -16,6 +25,14 @@ bool canPlaceFlowers(int *canteiroFlores, int tamanhoCanteiroFlores, int n) {
             return false;
         }
 }
+
+/*
+===========================================================================
+Função Main: Essa função apenas pega um vetor preenchido com 0's e 1's e de 
+acordo com o valor definido em num, ela chama a função canPlaceFlowers para
+verificar se foi possivel plantar o número de flores (num) desejado.
+===========================================================================
+*/
 
 int main(){
     int canteiro[] = {1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1}, num = 2;
