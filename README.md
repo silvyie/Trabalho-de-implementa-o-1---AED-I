@@ -1,4 +1,4 @@
-# Trabalho de implementacao 1 AED I
+# Trabalho de implementacao 1 - AED I
 Nome: SILVANA DIAS FURTADO
 Turma: M2
 
