@@ -19,3 +19,5 @@ canteiro[] = {1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1}, num = 2 false
 Complexidade de tempo do código é O(tamanhoCanteiroFlores) porque ele percorre o array do canteiro apenas uma vez, 
 avaliando cada posição para decidir se pode plantar uma flor ali. Complexidade de espaço é O(1) pois o algoritmo usa uma 
 quantidade constante de memória extra.
+
+Algoritmo é eficiente em tempo linear e usa memória constante
