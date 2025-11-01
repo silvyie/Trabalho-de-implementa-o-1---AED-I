@@ -2,6 +2,9 @@
 Nome: SILVANA DIAS FURTADO
 Turma: M2
 
+O meu código verifica se é possível plantar uma nova flor em um determinado lugar do vetor, caso seja possível, a flor será plantada e o contador irá incrementar.
+Ao final, se o número de flores plantadas (contador: lugaresLivres) for maior ou igual a n, retorna true, caso contrário, retorna false.
+
 Casos testados com vetores de tamanho 5, 6 e 11 no exercício 605
 
 canteiro[] = {1, 0, 0, 0, 1}, num = 1    true
