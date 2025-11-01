@@ -35,7 +35,7 @@ verificar se foi possivel plantar o número de flores (num) desejado.
 */
 
 int main(){
-    int canteiro[] = {1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1}, num = 2;
+    int canteiro[] = {1, 0, 0, 0, 1}, num = 1;
     int tamanho = sizeof(canteiro) / sizeof(canteiro[0]);
 
     bool resultado = canPlaceFlowers(canteiro, tamanho, num);
@@ -48,5 +48,6 @@ int main(){
 
     return 0;
 }
+
 
 
